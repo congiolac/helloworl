@@ -2,9 +2,9 @@ public class HelloWorld{
 
   public static void main(String[] args) throws Exception{
  
-    	System.out.println("Mãi");
-	System.out.println("mới");
-	System.out.println("chạy\nđược");
+    	System.out.println("Mai");
+	System.out.println("moi");
+	System.out.println("chay\nduoc");
   }
 
 }
