@@ -1,9 +1,9 @@
-FROM centos:centos6
+FROM java:7
 MAINTAINER duong
 
-RUN yum install -y httpd
-EXPOSE 80
-#CMD service httpd start
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+COPY HelloWorld.java
+RUN javac HelloWorld.java
+
+CMD ["java", "HelloWorld"]
 
 
